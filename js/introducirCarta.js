@@ -13,3 +13,11 @@ let bMesas = document.getElementById("bMesas");
 bMesas.onclick = function () {
     window.location.href = 'mesas.html';
 }
+
+//BOTÓN VOLVER
+
+let bVolver = document.getElementById("bVolver");
+
+bVolver.onclick = function () {
+    window.location.href = '../../index.html';
+}

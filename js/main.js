@@ -21,3 +21,19 @@ if (bAtras3) {
         window.location.href = 'finPedidoConExito.html';
     }
 }
+
+let bVolver = document.getElementById("bVolver");
+
+if (bVolver) {
+    bVolver.onclick = function () {
+        window.location.href = 'mesas.html';
+    }
+}
+
+let bVolver2 = document.getElementById("bVolver2");
+
+if (bVolver2) {
+    bVolver2.onclick = function () {
+        window.location.href = 'RESTAURANTE/introducirCarta.html';
+    }
+}

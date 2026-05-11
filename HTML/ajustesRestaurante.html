@@ -8,12 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../stylesCSS/styles.css"/>
     <link rel="icon" href="../src/imagenes/favicon2.png" type="image/x-icon">
+    <script src="../js/main.js" defer></script>
 </head>
 <body>
     <header class="app-header">
         <div class="contenido-header">
             <div class="flex-center gap-4">
-                <button class="btn-icon"><span class="material-symbols-outlined">arrow_back</span></button>
+                <button id="bVolver2" class="btn-icon"><span class="material-symbols-outlined">arrow_back</span></button>
                 <h1 class="text-xl">Ajustes de Configuración</h1>
             </div>
         </div>
@@ -26,7 +27,7 @@
                 <h2 class="text-3xl mb-2">Panel de Control</h2>
                 <p class="text-variant">Optimice la operativa diaria ajustando los parámetros de sala.</p>
             </div>
-            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeWhlkF35cmoeEUO9Lbs2XtnD-4Yq5quvXGQrT-z1twWaKS2TmZuVpYOI3wE-miFonZZzLrEXbcGKP5MhFYhX7OqlPutD1_qX8XVitZdP_58Jv6mCHuW6_S9tpHIRusYqDnecyB6Yrn9IIDxWoO-VbAwnc73iuWFuqasbG3dbzfyVk7bIVOA2upxv8V89NNb0WXeZgbLdQ3uy8uXnoEjQas4ynmwmEiw4EbnfVO52Aq1kD1NMYTUcadKkQ4AF0txBv7-E9FtvsYoM" alt="Interior" class="card-image" style="width: 120px; height: 120px; border-radius: var(--radius-md); transform: rotate(3deg);"/>
+            <img src="../src/imagenes/sala.jpg" alt="Interior" class="card-image" style="width: 120px; height: 120px; border-radius: var(--radius-md); transform: rotate(3deg);"/>
         </section>
 
         <section class="mb-8">
@@ -36,7 +37,7 @@
                     <div class="btn-icon" style="background: rgba(166, 51, 0, 0.1);"><span class="material-symbols-outlined icon-filled">cloud_upload</span></div>
                     <h4 class="text-lg">Actualizar Archivo .xlsx</h4>
                 </div>
-                <p class="text-variant mb-4">Suba el archivo de inventario y precios actualizado.</p>
+                <p class="text-variant mb-4">Suba el archivo de inventario y precios actualizados.</p>
                 <div class="file-dropzone flex-col flex-center">
                     <span class="material-symbols-outlined text-4xl text-variant mb-2">upload_file</span>
                     <span class="font-bold">Arrastre o seleccione un archivo</span>
@@ -82,7 +83,7 @@
     </main>
 
     <nav class="bottom-nav">
-        <button class="nav-item"><span class="material-symbols-outlined">dashboard</span><span class="text-xs mt-2">Dashboard</span></button>
+        <button class="nav-item"><span class="material-symbols-outlined">dashboard</span><span class="text-xs mt-2">Panel</span></button>
         <button class="nav-item"><span class="material-symbols-outlined">receipt_long</span><span class="text-xs mt-2">Pedidos</span></button>
         <button class="nav-item"><span class="material-symbols-outlined">restaurant_menu</span><span class="text-xs mt-2">Menú</span></button>
         <button class="nav-item active-bg"><span class="material-symbols-outlined icon-filled">settings</span><span class="text-xs mt-2">Ajustes</span></button>
