@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RestaurantApp</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="stylesCSS/styles.css" />
+    <script src="js/main.js" defer></script>
+    <link rel="icon" href="src/imagenes/favicon2.png" type="image/x-icon">
+</head>
+<body>
+
+    <header class="app-header">
+        <div class="contenido-header">
+            <div class="header-left">
+                <img src="src/imagenes/favicon2.png" alt="Logo" class="avatar" />
+                <h1 class="brand-title">RestaurantApp</h1>
+            </div>
+            <div class="header-right">
+                <img src="https://i.pravatar.cc/150?img=11" alt="Perfil del usuario" class="avatar" />
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        
+        <section class="hero-section">
+            <h2>¿Qué te apetece <span class="highlight">comer</span> hoy?</h2>
+        </section>
+
+        <section class="action-grid">
+            <button class="action-card primary-card" id="bEscanearQR">
+                <div class="icon-wrapper">
+                    <span class="material-symbols-outlined">qr_code_scanner</span>
+                </div>
+                <div class="card-text">
+                    <span class="card-title">Escanear Código QR</span>
+                    <span class="card-subtitle">Pide desde tu mesa</span>
+                </div>
+                <span class="material-symbols-outlined bg-icon">restaurant</span>
+            </button>
+
+            <button class="action-card secondary-card" id="bRegistraResta">
+                <div class="icon-wrapper">
+                    <span class="material-symbols-outlined">map</span>
+                </div>
+                <div class="card-text">
+                    <span class="card-title text-dark">Registra tu Restaurante</span>
+                    <span class="card-subtitle text-dark-variant">Implementa nuestros servicios</span>
+                </div>
+            </button>
+        </section>
+
+        <section class="restaurants-section">
+            <div class="section-header">
+                <div>
+                    <h3>Restaurantes Destacados</h3>
+                    <div class="underline"></div>
+                </div>
+               
+            </div>
+
+            <div class="restaurant-grid">
+                <article class="restaurant-card">
+                    <div class="card-image-wrapper">
+                        <img src="src/imagenes/Casa-Diego.jpg" alt="Casa Diego" />
+                       
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h4>Casa Diego</h4>
+                            <div class="rating">
+                                <span class="material-symbols-outlined icon-filled">star</span>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </article>
+
+                <article class="restaurant-card">
+                    <div class="card-image-wrapper">
+                        <img src="src/imagenes/la-mafia.jpg" alt="La Mafia" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h4>La Mafia</h4>
+                            <div class="rating">
+                                <span class="material-symbols-outlined icon-filled">star</span>
+                                <span>4.7</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </article>
+
+                <article class="restaurant-card">
+                    <div class="card-image-wrapper">
+                        <img src="src/imagenes/Mar-De-Gloria.jpg" alt="Mar de Gloria" />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-header">
+                            <h4>Mar de Gloria</h4>
+                            <div class="rating">
+                                <span class="material-symbols-outlined icon-filled">star</span>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <nav class="bottom-nav">
+        <button class="nav-item active">
+            <span class="material-symbols-outlined icon-filled">explore</span>
+            <span>Explorar</span>
+        </button>
+        <button class="nav-item">
+            <span class="material-symbols-outlined">search</span>
+            <span>Buscar</span>
+        </button>
+        <button class="nav-item">
+            <span class="material-symbols-outlined">shopping_bag</span>
+            <span>Pedidos</span>
+        </button>
+        <button class="nav-item">
+            <span class="material-symbols-outlined">person</span>
+            <span>Perfil</span>
+        </button>
+    </nav>
+
+</body>
+</html>
