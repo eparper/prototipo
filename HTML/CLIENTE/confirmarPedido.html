@@ -3,18 +3,19 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Confirmar Pedido</title>
+    <title>RestaurantApp</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../../stylesCSS/styles.css"/>
     <script src="../../js/main.js" defer></script>
+    <link rel="icon" href="../../src/imagenes/favicon2.png" type="image/x-icon">
 </head>
 <body>
     <header class="app-header">
         <div class="contenido-header">
             <div class="flex-center gap-4">
                 <button id="bAtras3" class="btn-icon"><span class="material-symbols-outlined">arrow_back</span></button>
-                <h1 class="text-xl text-primary">Your Order</h1>
+                <h1 class="text-xl text-primary">Tu pedido</h1>
             </div>
         </div>
     </header>
@@ -84,23 +85,19 @@
                 <div class="btn-icon" style="background: var(--surface-lowest);"><span class="material-symbols-outlined">schedule</span></div>
                 <div>
                     <p class="text-xs text-variant uppercase font-bold">Entrega Estimada</p>
-                    <p class="font-bold">20 - 30 min</p>
+                    <p class="font-bold">20 - 25 min</p>
                 </div>
             </div>
             <div class="card flex-center gap-4" style="justify-content: flex-start; padding: 1rem;">
                 <div class="btn-icon" style="background: var(--surface-lowest);"><span class="material-symbols-outlined">location_on</span></div>
                 <div>
-                    <p class="text-xs text-variant uppercase font-bold">Ubicación</p>
-                    <p class="font-bold">Terraza Principal</p>
+                    <p class="text-xs text-variant uppercase font-bold">Nº de mesa</p>
+                    <p class="font-bold">14</p>
                 </div>
             </div>
         </div>
     </main>
 
-    <nav class="bottom-nav">
-        <button class="btn btn-primary btn-block" style="border-radius: var(--radius-full);">
-            <span class="material-symbols-outlined">check_circle</span> CONFIRMAR PEDIDO
-        </button>
-    </nav>
+    
 </body>
 </html>

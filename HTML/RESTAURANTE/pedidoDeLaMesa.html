@@ -3,11 +3,12 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Pedido Mesa 14</title>
+    <title>RestaurantApp</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="../../stylesCSS/styles.css"/>
     <script src="../../js/main.js" defer></script>
+    <link rel="icon" href="../../src/imagenes/favicon2.png" type="image/x-icon">
 </head>
 <body>
     <header class="app-header">
@@ -80,7 +81,18 @@
         <button id="bImprimirCuenta" class="btn btn-primary btn-block text-xl">
             <span class="material-symbols-outlined">print</span> Print Account
         </button>
+        <br><br>
+        <button class="btn btn-primary btn-block text-xl">
+            <span class="material-symbols-outlined">kitchen</span> Enviar pedido a cocina
+        </button>
+
         <p class="text-center text-sm text-variant mt-4">La confirmación se enviará a la cocina.</p>
+
+        <nav class="bottom-nav">
+            <button class="btn btn-primary btn-block" style="border-radius: var(--radius-full);">
+                <span class="material-symbols-outlined">check_circle</span> CONFIRMAR PEDIDO
+            </button>
+        </nav>
     </main>
 
     <nav class="bottom-nav">
